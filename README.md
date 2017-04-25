@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-wait.for/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-wait.for/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-wait.for/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-wait.for/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-wait.for/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-wait.for/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-wait.for/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-wait.for/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-wait.for/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-wait.for/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-wait.for/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-wait.for/build/coverage.html/index.html)
 
@@ -35,13 +35,27 @@
 ```json
 
 {
-    "name": "wait.for",
-    "version": "0.6.6",
-    "description": "Sequential programming for node.js, end of callback hell",
     "author": {
         "name": "Lucio Tato",
         "url": "http://github.com/luciotato"
     },
+    "bugs": {
+        "url": "http://github.com/luciotato/waitfor/issues"
+    },
+    "dependencies": {
+        "fibers": ">=1.0.1"
+    },
+    "description": "Sequential programming for node.js, end of callback hell",
+    "devDependencies": {},
+    "directories": {},
+    "dist": {
+        "shasum": "0cc9079ce0680a80545e2ec9bb7a693a16e07504",
+        "tarball": "https://registry.npmjs.org/wait.for/-/wait.for-0.6.6.tgz"
+    },
+    "engines": {
+        "node": ">=0.5.2"
+    },
+    "homepage": "http://github.com/luciotato/waitfor",
     "keywords": [
         "fiber",
         "fibers",
@@ -58,23 +72,24 @@
         "callback hell",
         "pyramid of doom"
     ],
-    "homepage": "http://github.com/luciotato/waitfor",
     "license": "Creative Commons, MIT",
-    "bugs": "http://github.com/luciotato/waitfor/issues",
+    "main": "waitfor.js",
+    "maintainers": [
+        {
+            "name": "luciotato"
+        }
+    ],
+    "name": "wait.for",
+    "optionalDependencies": {},
     "repository": {
         "type": "git",
         "url": "git://github.com/luciotato/waitfor.git"
     },
-    "main": "waitfor.js",
-    "engines": {
-        "node": ">=0.5.2"
-    },
-    "dependencies": {
-        "fibers": ">=1.0.1"
-    },
     "scripts": {
         "test": "node tests"
-    }
+    },
+    "version": "0.6.6",
+    "bin": {}
 }
 ```
 
